@@ -13,10 +13,17 @@ const config: StorybookConfig = {
     "@storybook/addon-designs",
     "storybook-preset-inline-svg"
   ],
+  "build": {
+    "test": {
+      "disabledAddons": ['@storybook/addon-a11y'],
+      "disableMDXEntries": false,
+    },
+  },
   "staticDirs": ["../public"],
   "framework": {
     "name": "@storybook/web-components-vite",
     "options": {}
-  }
+  },
+
 };
 export default config;
