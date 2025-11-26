@@ -1,0 +1,19 @@
+@import './normalize.css';
+@import './root.css';
+@import './atoms/fonts.css';
+@import './atoms/typography.css';
+@import './atoms/iconography.css';
+@import './atoms/tescomobile-icons.css';
+@import './atoms/tescomobile-magento.css';
+
+@import './sb-styles.css';
+
+svg {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+svg.logo {
+  width: 130px;
+  height: 40px;
+}

@@ -1,0 +1,39 @@
+.icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  stroke: 1.5px;
+}
+
+.icon-xs {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.icon-sm {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-md {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.icon-lg {
+  width: 4rem;
+  height: 4rem;
+  stroke: 2.5px;
+}
+
+.icon-xl {
+  width: 6.4rem;
+  height: 6.4rem;
+  stroke: 3px;
+}
+
+.icon-xxl {
+  width: 7.2rem;
+  height: 7.2rem;
+  stroke: 3px;
+}
+

@@ -1,0 +1,45 @@
+.tm-light {
+  font-weight: 400;
+}
+
+.tm-heading {
+  border-bottom: 0.1rem solid grey;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.tm-subheading {
+  border-bottom: 0.1rem solid grey;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.icon.example {
+  height: 5rem;
+  width: 5rem;
+}
+
+.glyph {
+  align-items: center;
+  border: 1px solid black;
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.glyph p {
+  margin: 0;
+}
+
+.glyph span:first-child {
+  font-size: 5rem;
+}
+
+.icon-demo {
+  height: 5rem;
+  width: 5rem;
+}

@@ -1,0 +1,71 @@
+:root {
+  --black:                  rba(32, 32, 32);
+  --gray:                   rgb(105, 105, 105);
+  --gray-light:             rgb(235, 235, 235);
+  --gray-lighter:           rgb(247, 247, 247);
+  --white:                  rgb(255, 255, 255);
+  --yellow:                 rgb(255, 234, 0);
+  --blue:                   rgb(0, 69, 255);
+  --pink:                   rgb(255, 0, 89);
+
+  /* STYLEGUIDE */
+  --color-blue:             rgb(0, 83, 159);
+  --color-red:              rgb(238, 28, 46);
+
+  --color-black:            var(--black);
+  --color-white:            var(--white);
+
+  --color-table-grey:       rgb(51, 51, 51);
+  --color-grey:             rgb(87, 82, 82);
+  --color-silver:           rgb(192, 192, 192);
+  --color-mercury:          rgb(229, 229, 229);
+  --color-dark-white:       rgb(240, 235, 235);
+  --color-online-white:     rgb(247, 245, 245);
+  --color-error-red:        rgb(204, 51, 51);
+  --color-amber:            rgb(255, 153, 0);
+  --color-yellow:           rgb(252, 214, 0);
+  --color-green:            rgb(0, 136, 0);
+  --color-mid-blue:         rgb(61, 140, 199);
+  --color-light-blue:       rgb(145, 186, 227);
+
+  /* NOT IN STYLEGUIDE (mostly one-shots) */
+  --color-alto:             rgb(221, 221, 221);
+  --color-matisse:          rgb(32, 84, 154);
+  --color-gold:             rgb(248, 213, 0);
+  --color-dove-gray:        rgb(110, 103, 103);
+  --color-lightgrey:        rgb(211, 211, 211);
+  --color-very-light-grey:  rgb(199, 199, 199);
+  --color-pure-blue:        rgb(0, 0, 255);
+  --color-white-smoke:      rgb(246, 246, 246);
+
+  --bodybg:                 var(--color-white-smoke);
+  --fontcolour:             var(--color-grey);
+  --link:                   var(--color-blue);
+  --linkhover:              var(--color-grey)
+  --linkactive:             var(--color-grey);
+
+  --gutter-padding:         0;
+  --text-color:             var(--color-grey);
+
+  --brand:                  var(--color-blue);
+  --white:                  var(--color-white);
+  --black:                  var(--color-black);
+
+  /* Typography */
+  --primary-font:           TESCOModern;
+  --font-weight-normal:     400;
+  --font-weight-bold:       700;
+  --line-height-base:       1.4;
+  --base-font:              1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: var(--font-color);
+  font-family: var(--primary-font);
+  font-size: var(--base-font);
+  line-height: var(--line-height-base);
+}

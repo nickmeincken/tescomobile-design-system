@@ -1,0 +1,103 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs/blocks';
+
+<Meta title="Design System/Atoms/Colours" />
+
+<ColorPalette>
+  <ColorItem
+    title="theme.color.brand"
+    subtitle="var: --brand"
+    colors={{ '--brand': '#00539f' }}
+  />
+  <ColorItem
+    title="theme.font.color"
+    subtitle="var --font-color"
+    colors={{ 'rgb(87, 82, 82)': '#575252' }}
+  />
+  <ColorItem
+    title="theme.color.white"
+    subtitle="var: --color-white"
+    colors={{ 'rgb(255, 255, 255)': '#fff' }}
+  />
+  <ColorItem
+    title="theme.color.black"
+    subtitle="var: --color-black"
+    colors={{ 'rba(32, 32, 32)': '#202020' }}
+  />
+  <ColorItem
+    title="theme.color.greyscale"
+    subtitle="Some of the greys"
+    colors={{
+      '--color-white': '#fff',
+      '--color-online-white': '#f7f5f5',
+      '--color-dark-white': '#f0ebeb'
+    }}
+  />
+  <ColorItem
+    title="theme.color.red"
+    subtitle="var: --color-red"
+    colors={{ 'rgb(238, 28, 46)': '#ee1c2d' }}
+  />
+  <ColorItem
+    title="Shaders"
+    subtitle="Some of the greys"
+    colors={{
+      '--gray': 'rgb(105, 105, 105)',
+      '--gray-light': 'rgb(235, 235, 235)',
+      '--gray-lighter': 'rgb(247, 247, 247)'
+    }}
+  />
+  <ColorItem
+    title="Other greys"
+    subtitle="Other greys"
+    colors={{
+      '--color-online-white': 'rgb(247, 245, 245)',
+      '--color-dark-white': 'rgb(240, 235, 235)',
+      '--color-mercury': 'rgb(229, 229, 229)',
+      '--color-silver': 'rgb(192, 192, 192)',
+      '--color-gray': 'rgb(87, 82, 82)',
+      '--color-table-grey': 'rgb(51, 51, 51)'
+    }}
+  />
+  <ColorItem
+    title="yellow/blue/pink"
+    subtitle=""
+    colors={{
+      '--yellow': 'rgb(255, 234, 0)',
+      '--blue': 'rgb(0, 69, 255)',
+      '--pink': 'rgb(255, 0, 89)'
+    }}
+  />
+  <ColorItem
+    title="theme.color.states"
+    subtitle=""
+    colors={{
+      '--color-error-red': 'rgb(204, 51, 51)',
+      '--color-amber': 'rgb(255, 153, 0)',
+      '--color-yellow': 'rgb(252, 214, 0)',
+      '--color-green': 'rgb(0, 136, 0)'
+    }}
+  />
+  <ColorItem
+    title="theme.color.blues"
+    subtitle=""
+    colors={{
+      '--color-light-blue': 'rgb(145, 186, 227)',
+      '--color-mid-blue': 'rgb(61, 140, 199)',
+      '--color-matisse': 'rgb(32, 84, 154)',
+      '--color-pure-blue': 'rgb(0, 0, 255)'
+    }}
+  />
+  <ColorItem
+    title="gradient"
+    subtitle="Grayscale"
+    colors={{
+      Gradient: 'linear-gradient(to right,white,black)',
+    }}
+  />
+  <ColorItem
+    title="gradient"
+    subtitle="Grayscale"
+    colors={['linear-gradient(65deg,white,black)']}
+  />
+
+</ColorPalette>
