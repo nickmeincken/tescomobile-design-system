@@ -10,4 +10,7 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - v1.0 Added Typography
+  - Glyph Icons
+  - Font Icons
+  - Master Icons
 - v1.0 Colour Palette
