@@ -22,12 +22,16 @@
   width: 5rem;
 }
 
+.font-icons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
 .glyph {
   align-items: center;
   border: 1px solid black;
-  display: flex;
-  gap: 3rem;
-  margin-bottom: 2rem;
   padding: 1rem;
 }
 
@@ -35,7 +39,7 @@
   margin: 0;
 }
 
-.glyph span:first-child {
+.glyph > span:first-child {
   font-size: 5rem;
 }
 
