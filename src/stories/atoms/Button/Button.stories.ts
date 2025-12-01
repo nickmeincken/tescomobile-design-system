@@ -27,6 +27,7 @@ type Story = StoryObj<ButtonProps>;
 
 export const Primary: Story = {
   args: {
+    icon: false,
     hierachy: 'primary',
     label: 'Button',
   },
@@ -34,6 +35,7 @@ export const Primary: Story = {
 
 export const Secondary: Story = {
   args: {
+    icon: false,
     hierachy: 'secondary',
     label: 'Button',
   },
@@ -41,6 +43,7 @@ export const Secondary: Story = {
 
 export const Tertiary: Story = {
   args: {
+    icon: false,
     hierachy: 'tertiary',
     label: 'Button',
   },
@@ -56,6 +59,7 @@ export const Icon: Story = {
 
 export const Large: Story = {
   args: {
+    icon: false,
     size: 'lg',
     label: 'Button',
   },
@@ -63,6 +67,7 @@ export const Large: Story = {
 
 export const Small: Story = {
   args: {
+    icon: false,
     size: 'sm',
     label: 'Button',
   },
