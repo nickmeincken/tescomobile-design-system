@@ -18,7 +18,10 @@ export const LogoImage: Story = {
       },
     },
   },
-  render: () => html`<svg class="logo"><use xlink:href="/svg/sprite.svg#tescomobile-logo"></use></svg>`,
+  render: () => html`<a href="https://www.tescomobile.com/" class="logo" title="Tesco Mobile" aria-label="Store Logo">
+      <svg><use xlink:href="/svg/sprite.svg#tescomobile-logo"></use></svg>
+      <span>Tesco Mobile</span>
+    </a>`,
 };
 
 export const BannerImage: Story = {
