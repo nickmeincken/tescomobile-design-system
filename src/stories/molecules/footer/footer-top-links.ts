@@ -24,28 +24,28 @@ export const FooterTopLinks = () => html`
       <li>
         <a href="https://www.facebook.com/tescomobile/">
           <svg class="icon">
-            <use xlink:href="/svg/sprite.svg#facebook"></use>
+            <use xlink:href="./svg/sprite.svg#facebook"></use>
           </svg>
         </a>
       </li>
       <li>
         <a href="https://x.com/tescomobile">
           <svg class="icon">
-            <use xlink:href="/svg/sprite.svg#x"></use>
+            <use xlink:href="./svg/sprite.svg#x"></use>
           </svg>
         </a>
       </li>
       <li>
         <a href="https://www.instagram.com/tescomobile/">
           <svg class="icon">
-            <use xlink:href="/svg/sprite.svg#instagram"></use>
+            <use xlink:href="./svg/sprite.svg#instagram"></use>
           </svg>
         </a>
       </li>
       <li>
         <a href="https://www.youtube.com/user/tescomobile">
           <svg class="icon">
-            <use xlink:href="/svg/sprite.svg#youtube"></use>
+            <use xlink:href="./svg/sprite.svg#youtube"></use>
           </svg>
         </a>
       </li>
