@@ -1,0 +1,48 @@
+.utility-header-wrapper {
+  background: #f0ebeb;
+}
+
+.utility-header {
+  display: flex;
+  font-size: 1.4rem;
+  gap: 1rem;
+  max-width: 117rem;
+  margin: 0 auto;
+}
+
+.utility-header a {
+  color: var(--brand);
+  display: block;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+}
+
+.utility-header li a:hover {
+  text-decoration: underline;
+}
+
+.utility-header li.active a,
+.utility-header li.active a:hover {
+  text-decoration: none;
+}
+
+.utility-header li.active {
+  background: var(--color-online-white);
+}
+
+
+.utility-header nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+}
+
+.utility-header-right {
+  margin-left: auto;
+}
+
+.wishlist {
+  display: none;
+}

@@ -1,0 +1,75 @@
+main {
+  margin: 0 auto;
+  max-width: 117rem;
+}
+
+.container {
+  display: grid;
+  gap: 1rem;
+  margin: 0 auto;
+  max-width: 117rem;
+}
+
+.container > div {
+  background: rgba(0, 0, 255, 0.2);
+  text-align: center;
+}
+
+.aside aside,
+.aside section {
+  background: rgba(0, 0, 255, 0.2);
+  text-align: center;
+}
+
+.aside {
+  grid-template-columns: 30rem 1fr;
+  gap: 1rem;
+}
+
+.aside.aside-right {
+  grid-template-columns: 1fr 30rem;
+}
+
+.two-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.four-col {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.five-col {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.six-col {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.seven-col {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.eight-col {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+.nine-col {
+  grid-template-columns: repeat(9, 1fr);
+}
+
+.ten-col {
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.eleven-col {
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.twelve-col {
+  grid-template-columns: repeat(12, 1fr);
+}

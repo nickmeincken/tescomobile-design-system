@@ -1,0 +1,33 @@
+.footer-links {
+  max-width: 117rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  padding-bottom: 2rem;
+}
+
+.footer-links a {
+  display: block;
+  padding: 0.6rem 0 1.2rem;
+  text-decoration: none;
+}
+
+.footer-links p {
+  color: var(--brand);
+  font-weight: 700;
+  margin: 0.5rem 0 1rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links ul.two-col {
+  column-count: 2;
+}
