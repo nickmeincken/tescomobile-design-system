@@ -1,5 +1,5 @@
 import { html } from 'lit';
-import { HeroImage } from '../../molecules/HeroImage';
+import { HeroImage } from '../../molecules/hero-image/HeroImage';
 import { GlobalNav } from '../../organisms/header/global-nav';
 import { GlobalFoot } from '../../organisms/footer/global-footer';
 
