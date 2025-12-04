@@ -8,7 +8,12 @@ export interface PageProps {}
 export const Page = () => html`
   ${GlobalNav()}
   <main>
-    ${HeroImage()}
+    ${HeroImage({
+      title: 'Hero Title',
+      subtitle: 'This is the hero description',
+      contentX: "left",
+      contentY: "top"
+    })}
     <article>
     </article>
   </main>

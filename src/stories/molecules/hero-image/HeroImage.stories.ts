@@ -8,6 +8,12 @@ const meta : Meta = {
   render: (args) => HeroImage(args),
   tags: ['autodocs'],
   argTypes: {
+    title: {
+      control: {type: 'text'}
+    },
+    subtitle: {
+      control: {type: 'text'}
+    },
     contentX: {
       control: { type: 'select' },
       options: [ 'left', 'center', 'right' ],
@@ -31,6 +37,8 @@ type Story = StoryObj<HeroProps>;
 
 export const HeroTopLeft: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'left',
     contentY: 'top',
   }
@@ -38,6 +46,8 @@ export const HeroTopLeft: Story = {
 
 export const HeroTopCenter: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'center',
     contentY: 'top',
   }
@@ -45,6 +55,8 @@ export const HeroTopCenter: Story = {
 
 export const HeroTopRight: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'right',
     contentY: 'top',
   }
@@ -52,6 +64,8 @@ export const HeroTopRight: Story = {
 
 export const HeroCenterLeft: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'left',
     contentY: 'middle',
   }
@@ -59,6 +73,8 @@ export const HeroCenterLeft: Story = {
 
 export const HeroCenterMiddle: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'center',
     contentY: 'middle',
   }
@@ -66,6 +82,8 @@ export const HeroCenterMiddle: Story = {
 
 export const HeroCenterRight: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'right',
     contentY: 'middle',
   }
@@ -73,14 +91,17 @@ export const HeroCenterRight: Story = {
 
 export const HeroBottomLeft: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'left',
     contentY: 'bottom',
   }
 };
 
-
 export const HeroBottomCenter: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'center',
     contentY: 'bottom',
   }
@@ -88,6 +109,8 @@ export const HeroBottomCenter: Story = {
 
 export const HeroBottomRight: Story = {
   args: {
+    title: 'Hero Title',
+    subtitle: 'This is the hero description',
     contentX: 'right',
     contentY: 'bottom',
   }
