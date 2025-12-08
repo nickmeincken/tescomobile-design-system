@@ -1,0 +1,17 @@
+.tilelink {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  gap: 2rem;
+}
+
+.tilelink_item a {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  background-color: white;
+  border-radius: .4rem;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+}

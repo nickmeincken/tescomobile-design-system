@@ -1,28 +1,21 @@
 import { html } from 'lit';
-import { Jumbotron } from '../../molecules/Jumbotron/Jumbotron';
+import { Carousel } from '../../organisms/Carousel/Carousel';
 import { GlobalNav } from '../../organisms/header/global-nav';
 import { GlobalFoot } from '../../organisms/footer/global-footer';
 import { CardStrip } from '../../organisms/CardStrip/CardStrip';
-import { AccordionItem } from '../../molecules/AccordionItem/AccordionItem';
+import { Accordion } from '../../organisms/Accordion/Accordion';
+import { TileLinkList } from '../../organisms/TileLinkList/TileLinkList';
 
 export interface PageProps {}
 
 export const Page = () => html`
   ${GlobalNav()}
   <main>
-    ${Jumbotron({
-      desktopImg: 'https://placehold.co/1280x430/WebP',
-      mobileImg: 'https://placehold.co/366x529/WebP',
-      title: 'Hero Title',
-      subtitle: 'This is the hero description',
-      contentX: "left",
-      contentY: "top"
-    })}
+    ${Carousel()}
+    ${TileLinkList()}
     ${CardStrip()}
-    ${AccordionItem({
-      heading: 'Card Heading',
-      content: 'lorem ipsum dolor',
-      name: 'faq'
+    ${Accordion({
+      cols: false
     })}
   </main>
   ${GlobalFoot()}
