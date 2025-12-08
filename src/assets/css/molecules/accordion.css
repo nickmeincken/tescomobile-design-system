@@ -1,4 +1,4 @@
-.accordion summary {
+summary {
   align-items: center;
   border-bottom: 0.1rem solid;
   display: flex;
@@ -8,26 +8,26 @@
   cursor: pointer;
 }
 
-.accordion .accordion_details .icon {
+.accordion_details .icon {
   transition: all .5s;
 }
 
-.accordion .accordion_details[open] .icon {
+.accordion_details[open] .icon {
   rotate: 180deg;
 }
 
-.accordion .accordion_content {
+.accordion_content {
   padding: 2rem;
 }
 
-.accordion .accordion_details::details-content {
+.accordion_details::details-content {
   block-size: 0;
   opacity: 0;
   transition: all 3s;
   overflow: clip;
 }
 
-.accordion .accordion_details[open]::details-content {
+.accordion_details[open]::details-content {
   block-size: auto;
   opacity: 1;
   transition: all .5s;

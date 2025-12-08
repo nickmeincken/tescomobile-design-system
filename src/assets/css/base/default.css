@@ -35,3 +35,7 @@ svg {
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+.cmp {
+  margin-bottom: 1rem;
+}

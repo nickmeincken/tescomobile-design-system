@@ -4,7 +4,7 @@ import { Card } from "../../molecules/Card/Card";
 export interface PageProps {}
 
 export const CardStrip = () => html`
-  <div class="container three-col">
+  <div class="cmp container three-col">
     ${Card({
       heading: 'Card Heading',
       content: 'lorem ipsum dolor',

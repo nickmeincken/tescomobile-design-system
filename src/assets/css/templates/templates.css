@@ -1,6 +1,20 @@
-main {
+/* main {
   margin: 0 auto;
   max-width: 117rem;
+} */
+
+main {
+  display: grid;
+  grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 117rem) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+main > * {
+  grid-column: main;
+}
+
+main > .carousel,
+main > .jumbotron {
+  grid-column: full
 }
 
 .container {
@@ -9,17 +23,6 @@ main {
   margin: 0 auto;
   max-width: 117rem;
 }
-
-/* .container > div {
-  background: rgba(0, 0, 255, 0.2);
-  text-align: center;
-}
-
-.aside aside,
-.aside section {
-  background: rgba(0, 0, 255, 0.2);
-  text-align: center;
-} */
 
 .aside {
   grid-template-columns: 30rem 1fr;
