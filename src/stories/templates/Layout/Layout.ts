@@ -3,6 +3,7 @@ import { Jumbotron } from '../../molecules/Jumbotron/Jumbotron';
 import { GlobalNav } from '../../organisms/header/global-nav';
 import { GlobalFoot } from '../../organisms/footer/global-footer';
 import { CardStrip } from '../../organisms/CardStrip/CardStrip';
+import { AccordionItem } from '../../molecules/AccordionItem/AccordionItem';
 
 export interface PageProps {}
 
@@ -18,6 +19,11 @@ export const Page = () => html`
       contentY: "top"
     })}
     ${CardStrip()}
+    ${AccordionItem({
+      heading: 'Card Heading',
+      content: 'lorem ipsum dolor',
+      name: 'faq'
+    })}
   </main>
   ${GlobalFoot()}
 `;
