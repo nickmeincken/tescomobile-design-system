@@ -1,0 +1,79 @@
+:root {
+  /* Base Typography */
+  --primary-font:           TESCOModern;
+  --font-weight-normal:     400;                    /* Normal */
+  --font-weight-bold:       700;                    /* Bold */
+  --line-height-base:       1.4;
+  --base-font:              1.6rem;                 /* 16px */
+
+  /* a tag */
+  --link:                   var(--color-blue);
+  --linkhover:              var(--color-grey);
+  --linkactive:             var(--color-grey);
+
+  /* spacing variables */
+  --0:                      0;                      /* 0 */
+  --1:                      0.5rem;                 /* 5px */
+  --2:                      calc(var(--1) * 2);     /* 10px */
+  --3:                      calc(var(--1) * 4);     /* 20px */
+  --4:                      calc(var(--1) * 8);     /* 40px */
+  --5:                      calc(var(--1) * 16);    /* 80px */
+  --6:                      calc(var(--1) * 32);    /* 160px */
+  --7:                      calc(var(--1) * 64);    /* 320px */
+  --8:                      calc(var(--1) * 128);   /* 640px */
+  --9:                      calc(var(--1) * 256);   /* 1280px */
+
+  /* Globals */
+  --brand:                  var(--color-blue);
+  --bodybg:                 var(--color-white-smoke);
+  --text-color:             var(--color-grey);
+
+  /* Buttons */
+  /* primary */
+  --primary-btn-bg:         var(--color-white);
+  --primary-btn-txt:        var(--color-blue);
+  --primary-btn-bg-hover:   var(--color-blue);
+  --primary-btn-txt-hover:  var(--color-white);
+
+  /* secondary */
+  --secondary-btn-bg:       var(--color-blue);
+  --secondary-btn-txt:      var(--color-white);
+  --secondary-btn-bg-hover: var(--color-white);
+  --secondary-btn-txt-hover:var(--color-blue);
+
+  /* tertiary */
+  --tertiary-btn-bg:        var(--color-red);
+  --tertiary-btn-txt:       var(--color-white);
+
+  /* Cart Buttons */
+  --primary-cart-btn-bg:    var(--color-blue);
+  --primary-cart-btn-txt:   var(--color-online-white);
+  --secondary-cart-btn-bg:  var(--color-white);
+  --secondary-cart-btn-txt: var(--color-blue);
+
+  /* Border-Radius */
+  --br0:                     0.2rem;  /* 2px */
+  --br1:                     0.6rem;  /* 6px */
+  --br2:                     1.2rem;  /* 12px */
+  --br3:                     2.4rem;  /* 24px */
+  --br4:                     4.8rem;  /* 48px */
+  --br5:                     9.6rem;  /* 96px */
+
+  /* font-sizing */
+  --display1:               calc(var(--base-font) * 4.5);     /* 72px */
+  --display2:               calc(var(--base-font) * 4);       /* 64px */
+  --display3:               calc(var(--base-font) * 3.5);     /* 56px */
+  --head1:                  calc(var(--base-font) * 3);       /* 48px */
+  --head2:                  calc(var(--base-font) * 2.5);     /* 40px */
+  --head3:                  calc(var(--base-font) * 2);       /* 32px */
+  --head4:                  calc(var(--base-font) * 1.5);     /* 24px */
+  --head5:                  calc(var(--base-font) * 1.25);    /* 20px */
+  --head6:                  var(--base-font);                 /* 16px */
+  --font-sm:                calc(var(--base-font) * 0.875);   /* 14px */
+  --font-md:                var(--base-font);                 /* 16px */
+  --font-lg:                calc(var(--base-font) * 1.125);   /* 18px */
+  --font-xl:                calc(var(--base-font) * 1.25);    /* 20px */
+  --font-xxl:               calc(var(--base-font) * 1.375);   /* 22px */
+
+  /* Inputs */
+}

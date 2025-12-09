@@ -1,4 +1,5 @@
 @import './normalize.css';
 @import './root.css';
+@import './tokens.css';
 @import './helpers.css';
 @import './default.css';
