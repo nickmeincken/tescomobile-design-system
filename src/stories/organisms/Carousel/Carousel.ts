@@ -38,19 +38,3 @@ export const Carousel = () => html`
   </ul>
 </div>
 `;
-
-export const CardCarousel = () => html`
-<div class="carousel">
-  <ul>
-    <li>
-      ${CardStrip()}
-    </li>
-    <li>
-      ${CardStrip()}
-    </li>
-    <li>
-      ${CardStrip()}
-    </li>
-  </ul>
-</div>
-`;

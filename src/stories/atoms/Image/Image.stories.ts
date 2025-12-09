@@ -5,6 +5,9 @@ import { html } from 'lit';
 const meta : Meta = {
   title: 'Design System/Atoms/Images',
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 export default meta;
@@ -18,7 +21,8 @@ export const LogoImage: Story = {
       },
     },
   },
-  render: () => html`<a href="https://www.tescomobile.com/" class="logo" title="Tesco Mobile" aria-label="Store Logo">
+  render: () => html`
+    <a href="https://www.tescomobile.com/" class="logo" title="Tesco Mobile" aria-label="Store Logo">
       <svg><use xlink:href="/svg/sprite.svg#tescomobile-logo"></use></svg>
       <span>Tesco Mobile</span>
     </a>`,

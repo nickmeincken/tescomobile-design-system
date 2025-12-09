@@ -8,6 +8,9 @@ import { Button } from './Button';
 const meta = {
   title: 'Design System/Atoms/Button',
   tags: ['autodocs'],
+  parameters: {
+    layout: 'centered',
+  },
   render: (args) => Button(args),
   argTypes: {
     hierachy: {
