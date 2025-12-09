@@ -4,6 +4,23 @@ import { Meta } from '@storybook/addon-docs/blocks';
 
 ## Atoms
 
-These are our foundation blocks for the entire site, we can make global changes with minimal fuss.
+In Atomic Design, atoms are the fundamental, indivisible building blocks of a user interface, like buttons, input fields, icons, and labels, representing the smallest pieces of HTML that can't be broken down further. These simple, reusable components form the foundation of a design system, combining to create more complex structures like molecules, which then form organisms, and eventually templates and pages, creating a coherent and scalable design hierarchy inspired by chemistry.
+
+**Key Characteristics of Atoms:**
+
+- **Smallest Units**: They are the most basic elements, like a single HTML tag (e.g., `<button>`, `<label>`).
+- **Foundation**: They establish the core styles and functionality of the system (colors, fonts, basic interactions).
+- **Reusable**: Atoms are designed to be used repeatedly across different parts of the interface.
+- **Examples**: Buttons, form labels, input fields, icons, color palettes, fonts.
+
+**How Atoms Fit In:**
+
+- **Atoms**: Basic HTML elements (e.g., a button, an icon).
+- **Molecules**: Groups of atoms that function together (e.g., a search icon + input field = a search form).
+- **Organisms**: Collections of molecules and atoms forming distinct sections (e.g., a header with a logo, navigation, and search form).
+- **Templates**: Page-level layouts showing the structure with organisms but without final content.
+- **Pages**: Specific instances of templates with real content, showing the final UI.
+
+By starting with atoms, designers build complex UIs from simple, manageable parts, ensuring consistency and making systems easier to maintain and scale.
 
 The goal of this is to make styles agnostic to platform.
