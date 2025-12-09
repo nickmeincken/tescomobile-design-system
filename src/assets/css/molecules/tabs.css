@@ -1,0 +1,27 @@
+.tab {
+  overflow: hidden;
+  display: flex;
+}
+
+.tab button {
+  background-color: transparent;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  border-bottom: 2px solid transparent
+}
+
+.tab button.active,
+.tab button:hover {
+  border-bottom-color: inherit;
+}
+
+.tabcontent {
+  display: none;
+  padding: 1.2rem;
+  background-color: var(--white);
+  border-top: none;
+}
