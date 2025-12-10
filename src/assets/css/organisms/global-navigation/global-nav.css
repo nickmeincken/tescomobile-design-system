@@ -1,7 +1,7 @@
 .global-nav-wrapper {
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .15);
   position: relative;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .global-nav .global-navigation {

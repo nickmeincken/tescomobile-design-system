@@ -12,6 +12,7 @@ main > * {
   grid-column: main;
 }
 
+main > .content-carousel,
 main > .carousel,
 main > .jumbotron {
   grid-column: full
