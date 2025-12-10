@@ -3,7 +3,6 @@ import { GlobalNav } from '../../organisms/header/global-nav';
 import { SwiperCarousel } from '../../organisms/Swiper/Swiper';
 import { Accordion } from '../../organisms/Accordion/Accordion';
 import { TileLinkList } from '../../organisms/TileLinkList/TileLinkList';
-import { ContentSwiper } from '../../organisms/Swiper/Swiper.stories';
 import { GlobalFoot } from '../../organisms/footer/global-footer';
 export interface PageProps {}
 

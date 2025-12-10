@@ -1,11 +1,7 @@
 import { html } from 'lit';
 import { HelperNav } from './helper-nav';
 import { Search } from './search';
-import { PhoneSub } from './submenu/phone';
-import { SimoSub } from './submenu/sim-only';
-import { HelpSub } from './submenu/help';
-import { BusinessSub } from './submenu/business';
-import { WhySub } from './submenu/why-tm';
+import { HelpSub, BusinessSub, SimoSub, PhoneSub, WhySub } from './submenu';
 import { MobileNav } from './mobile-nav';
 
 export interface PageProps {}
