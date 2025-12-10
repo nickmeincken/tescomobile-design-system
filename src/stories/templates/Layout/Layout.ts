@@ -1,11 +1,10 @@
 import { html } from 'lit';
 import { GlobalNav } from '../../organisms/header/global-nav';
 import { SwiperCarousel } from '../../organisms/Swiper/Swiper';
-import { CardStrip } from '../../organisms/CardStrip/CardStrip';
 import { Accordion } from '../../organisms/Accordion/Accordion';
 import { TileLinkList } from '../../organisms/TileLinkList/TileLinkList';
+import { ContentSwiper } from '../../organisms/Swiper/Swiper.stories';
 import { GlobalFoot } from '../../organisms/footer/global-footer';
-
 export interface PageProps {}
 
 export const Page = () => html`
@@ -13,7 +12,6 @@ export const Page = () => html`
   <main>
     ${SwiperCarousel()}
     ${TileLinkList()}
-    ${CardStrip()}
     ${Accordion({
       cols: false
     })}
