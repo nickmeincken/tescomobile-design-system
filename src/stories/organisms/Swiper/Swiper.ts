@@ -5,8 +5,8 @@ import 'swiper/swiper-bundle.css';
 import { Jumbotron } from "../../molecules/Jumbotron/Jumbotron";
 
 export const SwiperCarousel = () => html`
-<div class="cmp content-carousel">
-<swiper-container class="hero-carousel" autoplay="true" init="false" loop="true">
+<div class="cmp cmp-hero-carousel">
+  <swiper-container class="hero-carousel" autoplay="true" init="false" loop="true">
     <swiper-slide>
       ${Jumbotron({
       desktopImg: 'https://placehold.co/1280x430/WebP',
@@ -115,30 +115,6 @@ export const SwiperCarousel = () => html`
   };
 
   Object.assign(swiperEl, swiperParams);
-  // Retry initialization up to 20 times (2 seconds total)
-  let attempts = 0;
-  const maxAttempts = 20;
-  const retryDelay = 100;
-
-  const tryInitialize = () => {
-    attempts++;
-
-    if (typeof swiperEl.initialize === 'function') {
-      swiperEl.initialize();
-      return;
-    }
-
-    if (attempts < maxAttempts) {
-      setTimeout(tryInitialize, retryDelay);
-    } else {
-      // Failed to initialize after 2 seconds, hide the carousel
-      const carouselElement = document.querySelector('.cmp.content-carousel');
-      if (carouselElement) {
-        carouselElement.style.display = 'none';
-      }
-    }
-  };
-
-  tryInitialize();
+  swiperEl.initialize();
 </script>
 `;
