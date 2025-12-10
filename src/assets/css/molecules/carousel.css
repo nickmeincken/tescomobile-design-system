@@ -93,6 +93,11 @@
   content: "►";
 }
 
+.cmp-hero-carousel {
+  position: relative;
+  z-index: -1;
+}
+
 /* Swiper */
 .swiper-controls {
   display: grid;
