@@ -1,0 +1,16 @@
+  .label {
+    padding: 0.6rem 1.5rem;
+    font-size: var(--font-sm);
+    text-wrap: nowrap;
+
+    &.offer {
+      background-color: var(--color-gold);
+      color: var(--color-table-grey);
+    }
+
+    &.new {
+      font-weight: var(--font-weight-bold);
+      background-color: var(--brand);
+      color: var(--white);
+    }
+  }
