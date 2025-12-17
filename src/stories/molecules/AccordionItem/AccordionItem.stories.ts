@@ -7,7 +7,7 @@ const meta : Meta = {
   title: 'Design System/Molecules/Accordion Item',
   render: (args) => AccordionItem(args),
   tags: ['autodocs'],
-    argTypes: {
+  argTypes: {
     heading: {
       control: { type: 'text' }
     },

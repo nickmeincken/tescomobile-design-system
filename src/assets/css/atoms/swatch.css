@@ -1,0 +1,8 @@
+.swatch {
+  position: relative;
+  margin-top: -5px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #eaeaea;
+  border-radius: 20px;
+}
