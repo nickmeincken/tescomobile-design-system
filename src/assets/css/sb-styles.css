@@ -92,3 +92,17 @@ body.sb-show-main.sb-main-padded {
   width: 13rem;
   height: 4.8rem;
 }
+
+.demo {
+  div,
+  aside,
+  section {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

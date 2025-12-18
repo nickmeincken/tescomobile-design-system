@@ -1,104 +1,3 @@
-.carousel {
-  position: relative;
-  padding-bottom: 3rem;
-}
-
-.carousel ul {
-  width: auto;
-  height: auto;
-  display: flex;
-  gap: 4vw;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  padding: 0;
-  margin: 0;
-  scroll-marker-group: after;
-  anchor-name: --my-carousel;
-
-}
-
-.carousel ul::-webkit-scrollbar {
-  display: none;
-}
-
-.carousel ul::scroll-marker-group {
-  position: absolute;
-  position-anchor: --my-carousel;
-  justify-self: anchor-center;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.carousel li {
-  list-style-type: none;
-  scroll-snap-align: center;
-  flex: 0 0 100%;
-}
-
-.carousel li::scroll-marker {
-  content: "";
-  width: 16px;
-  height: 16px;
-  background-color: transparent;
-  border: 2px solid black;
-  border-radius: 50%;
-}
-
-.carousel li::scroll-marker:target-current {
-  background-color: black;
-}
-
-.carousel ul::scroll-button(*) {
-  border: 0;
-  font-size: 2rem;
-  background: none;
-  color: black;
-  opacity: 0.7;
-  cursor: pointer;
-}
-
-.carousel ul::scroll-button(*):hover,
-.carousel ul::scroll-button(*):focus {
-  opacity: 1;
-}
-
-.carousel ul::scroll-button(*):active {
-  translate: 1px 1px;
-}
-
-.carousel ul::scroll-button(*):disabled {
-  opacity: 0.2;
-  cursor: unset;
-}
-
-.carousel ul::scroll-button(*) {
-  position: absolute;
-  position-anchor: --my-carousel;
-}
-
-.carousel ul::scroll-button(left) {
-  right: calc(anchor(left) - 70px);
-}
-
-.carousel ul::scroll-button(right) {
-  left: calc(anchor(right) - 70px);
-}
-
-.carousel ul::scroll-button(left) {
-  content: "◄";
-}
-
-.carousel ul::scroll-button(right) {
-  content: "►";
-}
-
-.cmp-hero-carousel {
-  position: relative;
-  z-index: -1;
-}
-
-/* Swiper */
 .swiper-controls {
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -113,12 +12,12 @@
   }
 
   .screen-reader-text {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
   }
 
   .button-control,
@@ -172,6 +71,6 @@
   }
 
   .swiper-pagination-bullet-active {
-      background-color: var(--color-blue);
-    }
+    background-color: var(--color-blue);
+  }
 }

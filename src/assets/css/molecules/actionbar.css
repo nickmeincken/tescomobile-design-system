@@ -1,0 +1,26 @@
+.action-bar {
+  position: fixed;
+  width: 100vw;
+  bottom: 0;
+  background-color: white;
+  border-top: 1px solid #ccc;
+  display: grid;
+  grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 117rem) [main-end] minmax(1rem, 1fr) [full-end];
+
+  .action-bar_content {
+    grid-column: main;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0.5rem 0;
+  }
+
+  .action-bar__pdp-bundle-data {
+    align-items: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
