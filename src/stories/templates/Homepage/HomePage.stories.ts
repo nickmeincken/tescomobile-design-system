@@ -1,13 +1,12 @@
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
-
-import { HomePage } from '../templates/Homepage/HomePage';
+import { HomePage } from './HomePage';
 
 const meta : Meta = {
-  title: 'Design System/Pages/Homepage',
+  title: 'Design System/Templates/HomePage',
   render: () => HomePage(),
 } satisfies Meta;
 
 export default meta;
 type Story = StoryObj;
 
-export const Home: Story = {};
+export const Homepage: Story = {};

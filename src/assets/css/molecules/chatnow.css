@@ -7,47 +7,46 @@
   text-align: center;
   position: relative;
   box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
-}
 
-.chatnow_content {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-}
+  .chatnow_content {
+    position: relative;
+    z-index: 1;
+    height: 100%;
 
-.chatnow_content svg {
-  height: 4rem;
-  width: 4rem;
-}
+    svg {
+      height: 4rem;
+      width: 4rem;
+    }
+  }
+  .close {
+    position: absolute;
+    z-index: 2;
+    color: var(--white);
+    right: 1rem;
+    top: 1rem;
 
-.chatnow .close {
-  position: absolute;
-  z-index: 2;
-  color: var(--white);
-  right: 1rem;
-  top: 1rem;
-}
+    svg {
+      height: 3.5rem;
+      width: 3.5rem;
+    }
+  }
 
-.chatnow .close svg {
-  height: 3.5rem;
-  width: 3.5rem;
-}
+  .btn {
+    position: relative;
+    margin: -5rem auto 0 auto;
+    z-index: 2;
+  }
 
-.chatnow .btn {
-  position: relative;
-  margin: -5rem auto 0 auto;
-  z-index: 2;
-}
-
-.chatnow:before {
-  content: "";
-  height: 25rem;
-  width: 25rem;
-  display: block;
-  position: absolute;
-  top: 0;
-  background-color: var(--brand);
-  clip-path: circle(75% at 50% 0);
-  overflow: hidden;
-  border-radius: 1rem;
+  &:before {
+    content: "";
+    height: 25rem;
+    width: 25rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: var(--brand);
+    clip-path: circle(75% at 50% 0);
+    overflow: hidden;
+    border-radius: 1rem;
+  }
 }
