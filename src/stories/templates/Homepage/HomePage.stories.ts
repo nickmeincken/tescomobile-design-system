@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/web-components-vite';
 import { HomePage } from './HomePage';
 
 const meta : Meta = {
-  title: 'Design System/Templates/HomePage',
+  title: 'Design System/Templates/Homepage',
   render: () => HomePage(),
 } satisfies Meta;
 
