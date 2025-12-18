@@ -4,8 +4,6 @@ import { Search } from './search';
 import { HelpSub, BusinessSub, SimoSub, PhoneSub, WhySub } from './submenu';
 import { MobileNav } from './mobile-nav';
 
-export interface PageProps {}
-
 export const GlobalNav = () => html`
 ${HelperNav()}
 <div class="global-nav-wrapper">
