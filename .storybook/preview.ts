@@ -12,7 +12,7 @@ const preview: Preview = {
     },
     options: {
       storySort: {
-        order: ['Welcome to Tesco Mobile', 'Design System', ['Atoms', ['Intro', 'Tokens'], 'Molecules', ['Intro', '*'], 'Organisms', ['Intro', '*'], 'Templates', ['Intro', '*'], 'Pages'], 'Changelog'],
+        order: ['Welcome to Tesco Mobile', 'Design System', ['Atoms', ['Intro', 'Tokens'], 'Molecules', ['Intro', '*'], 'Organisms', ['Intro', 'Global Header', 'Global Footer', '*'], 'Templates', ['Intro', 'Layout', '*'], 'Pages'], 'Changelog'],
         includeNames: 'true'
       }
     },

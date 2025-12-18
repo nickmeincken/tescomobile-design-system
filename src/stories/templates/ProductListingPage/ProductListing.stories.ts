@@ -1,13 +1,13 @@
 import type { Meta, StoryObj } from '@storybook/web-components-vite';
 
-import { ProductListingPage } from './ProductListingPage';
+import { ProductListing } from './ProductListing';
 
 const meta : Meta = {
   title: 'Design System/Templates/Product Listing Page',
-  render: () => ProductListingPage()
+  render: () => ProductListing()
 } satisfies Meta;
 
 export default meta;
 type Story = StoryObj;
 
-export const PLP: Story = {};
+export const ProductListingPage: Story = {};
