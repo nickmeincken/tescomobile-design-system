@@ -1,8 +1,3 @@
-/* main {
-  margin: 0 auto;
-  max-width: 117rem;
-} */
-
 main {
   display: grid;
   grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 117rem) [main-end] minmax(1rem, 1fr) [full-end];
