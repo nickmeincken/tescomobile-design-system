@@ -1,39 +1,41 @@
-summary {
-  align-items: center;
-  border-bottom: 0.1rem solid;
-  display: flex;
-  font-size: 2rem;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  cursor: pointer;
+.accordion_details {
+  summary {
+    align-items: center;
+    border-bottom: 0.1rem solid;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    cursor: pointer;
+
+    .icon {
+      transition: all .5s;
+    }
+  }
+
+  &[open] .icon {
+    rotate: 180deg;
+  }
+
+  .accordion_content {
+    padding: 2rem;
+  }
+
+  &::details-content {
+    block-size: 0;
+    opacity: 0;
+    transition: all 3s;
+    overflow: clip;
+  }
+
+  &[open]::details-content {
+    block-size: auto;
+    opacity: 1;
+    transition: all .5s;
+  }
 }
 
-.accordion_details .icon {
-  transition: all .5s;
-}
-
-.accordion_details[open] .icon {
-  rotate: 180deg;
-}
-
-.accordion_content {
-  padding: 2rem;
-}
-
-.accordion_details::details-content {
-  block-size: 0;
-  opacity: 0;
-  transition: all 3s;
-  overflow: clip;
-}
-
-.accordion_details[open]::details-content {
-  block-size: auto;
-  opacity: 1;
-  transition: all .5s;
-}
-
-.twocol {
+.accordion.twocol {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
