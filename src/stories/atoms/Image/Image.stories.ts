@@ -36,7 +36,7 @@ export const BannerImage: Story = {
       },
     },
   },
-  render: () => html`<img src="https://placehold.co/250x250/WebP" />`,
+  render: () => html`<img class="image" src="https://placehold.co/250x250/WebP" />`,
 };
 
 export const HeroImage: Story = {
