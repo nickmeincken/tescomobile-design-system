@@ -40,3 +40,7 @@ svg {
 .cmp {
   margin-bottom: 1rem;
 }
+
+.image {
+  width: stretch;
+}
