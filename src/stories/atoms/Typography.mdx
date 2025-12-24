@@ -7,16 +7,37 @@ import { Meta, Unstyled, Source } from '@storybook/addon-docs/blocks';
 
 The type scale includes a range of sizes and weights to support design flexibility and maintain consistency across products. The type scale is a combination of ten sizes and four weights.
 
+```
+:root {
+  /* Base Typography */
+  --primary-font:           TESCOModern;
+  --font-weight-normal:     400;                    /* Normal */
+  --font-weight-bold:       700;                    /* Bold */
+  --line-height-base:       1.4;
+  --base-font:              1.6rem;                 /* 16px */
+
+  /* font-sizing */
+  --display1:               calc(var(--base-font) * 4.5);     /* 72px */
+  --display2:               calc(var(--base-font) * 4);       /* 64px */
+  --display3:               calc(var(--base-font) * 3.5);     /* 56px */
+  --head1:                  calc(var(--base-font) * 3);       /* 48px */
+  --head2:                  calc(var(--base-font) * 2.5);     /* 40px */
+  --head3:                  calc(var(--base-font) * 2);       /* 32px */
+  --head4:                  calc(var(--base-font) * 1.5);     /* 24px */
+  --head5:                  calc(var(--base-font) * 1.25);    /* 20px */
+  --head6:                  var(--base-font);                 /* 16px */
+  --font-sm:                calc(var(--base-font) * 0.875);   /* 14px */
+  --font-md:                var(--base-font);                 /* 16px */
+  --font-lg:                calc(var(--base-font) * 1.125);   /* 18px */
+  --font-xl:                calc(var(--base-font) * 1.25);    /* 20px */
+  --font-xxl:               calc(var(--base-font) * 1.375);   /* 22px */
+}
+```
+
 <h2 className="tm-light tm-heading">Font Family: TESCOModern</h2>
 
 ```
   font-family: var(--primary-font);
-```
-
-```
-:root {
-  --primary-font: TESCOModern;
-}
 ```
 
 <h3 className="tm-subheading">Font weight 400</h3>
