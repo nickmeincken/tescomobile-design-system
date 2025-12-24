@@ -6,7 +6,7 @@ import { Jumbotron } from "../../molecules/Jumbotron/Jumbotron";
 
 export const SwiperCarousel = () => html`
 <div class="cmp cmp-hero-carousel">
-  <swiper-container class="hero-carousel" autoplay="true" init="false" loop="true">
+  <swiper-container class="hero-carousel" AutoplayOptions="true" init="false" loop="true">
     <swiper-slide>
       ${Jumbotron({
       desktopImg: 'https://placehold.co/1280x430/WebP',
