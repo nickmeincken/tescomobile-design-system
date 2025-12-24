@@ -1,4 +1,5 @@
 import { html } from 'lit';
+import { ifDefined } from 'lit/directives/if-defined.js';
 
 export interface AccordionProps {
   heading?: string;
@@ -11,7 +12,7 @@ export interface AccordionProps {
   content,
   name,
  }: AccordionProps) => html`
-<details name="${name}" class="accordion_details">
+<details name="${ifDefined(name)}" class="accordion_details">
   <summary class="accordion_header">
     ${heading || 'Summary title'}
     <svg class="icon"><use xlink:href="./svg/sprite.svg#expand"></use></svg>
